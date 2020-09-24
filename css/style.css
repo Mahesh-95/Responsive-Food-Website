@@ -6,7 +6,7 @@
 
 header {
   padding: 1rem 0;
-  background-image: url(images/hero.png);
+  background-image: url(../images/hero.png);
   background-size: cover;
   background-position-x: 50%;
 }
@@ -231,7 +231,7 @@ section {
 */
 .booking {
   text-align: center;
-  background-image: url(images/section_bg04.png);
+  background-image: url(../images/section_bg04.png);
   background-size: cover;
   padding: 5rem 0.5rem;
 }
@@ -306,7 +306,7 @@ section {
 
 .subscribe {
   text-align: center;
-  background-image: url(images/section_bg03.png);
+  background-image: url(../images/section_bg03.png);
   background-size: cover;
   padding: 6rem 0;
 }
@@ -388,7 +388,7 @@ section {
 footer {
   margin-top: 4rem;
   padding-bottom: 2rem;
-  background-image: url(images/section_bg02.png);
+  background-image: url(../images/section_bg02.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: gray;

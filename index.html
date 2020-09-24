@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurent</title>
+    <link rel="shortcut icon" href="images/icon.png" />
+
+    <!--Font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!--Animate CSS file-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar  navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">Food</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active px-3">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="slider-content" data-aos="fade-right">
+        <h5>Discover your taste</h5>
+        <h1>We believe delicious food can bring great joy.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error
+          nesciunt minus, expedita eius temporibus beatae esse ipsum dolore
+          totam sint illum, aliquid veniam itaque fugiat id corrupti deserunt
+          illo.
+        </p>
+        <a href="#">Reservation</a>
+      </div>
+    </header>
+
+    <section>
+      <div class="row about">
+        <div class="col-lg-5 col-md-12" data-aos="fade-right">
+          <img class="img-fluid" src="../images/about.png" alt="about" />
+        </div>
+        <div class="about-content col-lg-7 col-md-12 pr-md-5" data-aos="fade-left">
+          <h1>We provide you delicious food.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quod eum, itaque cupiditate tempore eius aliquid possimus facilis
+            quam similique impedit deserunt in optio omnis asperiores quibusdam
+            repellendus accusamus nesciunt.
+          </p>
+          <div class="row">
+            <div class="about-food col-sm-12 col-md-6">
+              <span class="fas fa-utensils"> </span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="about-food col-sm-12 col-md-6">
+              <span class="fas fa-hamburger"> </span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="about-food col-sm-12 col-md-6">
+              <span class="fas fa-pizza-slice"> </span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="about-food col-sm-12 col-md-6">
+              <span class="fas fa-coffee"> </span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="menu">
+        <h5>Our Menu</h5>
+        <h1>Some Trendy and Most Popular Foods</h1>
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home"
+              >Special</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Lunch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">Breakfast</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu3">Dinner</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active">
+          <br />
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-right">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-left">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-right">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-left">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu1" class="container tab-pane fade">
+          <br />
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu2" class="container tab-pane fade">
+          <br />
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu3" class="container tab-pane fade">
+          <br />
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery3.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery1.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img class="menu-img" src="../images/gallery2.jpg" alt="" />
+              <div class="price">
+                <h5>25$</h5>
+                <h3>Delicious food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                <a href="">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row about">
+        <div class="col-lg-6 col-sm-12 about1-info" data-aos="fade-right">
+          <h5>About Our Restaurant</h5>
+          <h1>We provide you delicious food.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur explicabo exercitationem, quasi possimus inventore
+            doloremque minus, repellat praesentium minima deleniti velit totam
+            cum ab vitae facere voluptate hic excepturi mollitia.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum error
+            iusto omnis consequatur eligendi vitae fuga laboriosam ullam. Cum
+            architecto repellendus repudiandae magnam minima, illo ducimus
+            repellat obcaecati nostrum quam.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+        <div class="col-lg-6 col-sm-12" data-aos="fade-left">
+          <img class="img-fluid" src="../images/about2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="booking" data-aos="fade-up">
+        <div class="booking-details">
+          <h5>Reservation</h5>
+          <h1>Book a Table</h1>
+          <div class="detail">
+            <input type="text" placeholder="Name" />
+            <span class="fas fa-user"></span>
+          </div>
+          <div class="detail">
+            <input type="date" placeholder="Date" />
+            <span class="fas fa-calendar"></span>
+          </div>
+          <div class="detail">
+            <input type="time" placeholder="Time" />
+            <span class="fas fa-clock"></span>
+          </div>
+          <div class="detail">
+            <input type="number" placeholder="No. of people" min="1" max="12" />
+            <span class="fas fa-users"></span>
+          </div>
+          <div class="detail">
+            <button type="submit">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="subscribe" data-aos="fade-up">
+        <h1>Seasonal Offer</h1>
+        <p>To get amazing Offer please Subscribe</p>
+        <div class="subscribe-info">
+          <input type="text" placeholder="Your Email" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="blog">
+        <h5>Our Blog</h5>
+        <h1>Recent News</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-article" data-aos="fade-right">
+            <img class="img-fluid" src="/images/blog1.png" alt="blog1" />
+            <div class="blog-info">
+              <span>23 Dec 2020</span>
+              <h5>New Recipe</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-article" data-aos="fade-up">
+            <img class="img-fluid" src="/images/blog2.png" alt="blog1" />
+            <div class="blog-info">
+              <span>23 Dec 2020</span>
+              <h5>Tips</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-article" data-aos="fade-left">
+            <img class="img-fluid" src="/images/blog3.png" alt="blog1" />
+            <div class="blog-info">
+              <span>23 Dec 2020</span>
+              <h5>Event</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row" data-aos="fade-up">
+        <div class="footer-table col-lg-2 col-md-6 col-sm-12">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-table col-lg-2 col-md-6 col-sm-12">
+          <h5>Useful Links</h5>
+          <ul>
+            <li><a href="#"></a>Registration</li>
+            <li><a href="#"></a>Policy</li>
+            <li><a href="#"></a>Login</li>
+            <li><a href="#"></a>Terms & Conditions</li>
+          </ul>
+        </div>
+
+        <div class="footer-table col-lg-4 col-md-6 col-sm-12">
+          <h5>Instagram feeds</h5>
+          <div class="insta-feed">
+            <img class="img-fluid" src="/images/instagram1.png" alt="" />
+
+            <img class="img-fluid" src="/images/instagram2.png" alt="" />
+
+            <img class="img-fluid" src="/images/instagram3.png" alt="" />
+
+            <img class="img-fluid" src="/images/instagram4.png" alt="" />
+
+            <img class="img-fluid" src="/images/instagram5.png" alt="" />
+
+            <img class="img-fluid" src="/images/instagram6.png" alt="" />
+          </div>
+        </div>
+
+        <div class="footer-table col-lg-4 col-md-6 col-sm-12">
+          <h5>Follow Us</h5>
+          <div class="follows">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved by
+          <a href="https://colorlib.com" target="_blank">Mahesh</a>
+        </p>
+      </div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!--Animate JS file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--JS file-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
